@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
 import rospy
 from submarine_msgs_srvs.msg import Detections
 
@@ -19,5 +19,6 @@ def talker():
   
 if __name__ == '__main__':
     try:
-            talker()
-    except rospy.ROSInterruptException: pass
+        talker()
+    except rospy.ROSInterruptException: 
+        pass

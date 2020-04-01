@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
 import rospy
 from submarine_msgs_srvs.msg import Detections
 
