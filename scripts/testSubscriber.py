@@ -4,21 +4,16 @@ from submarine_msgs_srvs.msg import Detections
 
 def callback(data):
     rospy.loginfo("scores: ")
-    ##print("scores:")
     rospy.loginfo(data.scores)
-    ##print(data.scores)
 
     rospy.loginfo("boxes:")
-    ##print('boxes:')
-    #print(data.boxes)
+    rospy.loginfo(data.boxes)
 
     rospy.loginfo("classes:")
-    #print('classes:')
     rospy.loginfo(data.classes)
 
 
     rospy.loginfo("detected:")
-    #print('detected:')
     rospy.loginfo(data.detected)
 
 
